@@ -1,37 +1,40 @@
-<form action="action_page.php">
-  <div class="container">
-    <h1>New user Register for DevOps Learning</h1>
-    <p>Please fill in this form to create an account.</p>
-    <hr>
-     
-    <label for="Name"><b>Enter Name</b></label>
-    <input type="text" placeholder="Enter Full Name" name="Name" id="Name" required>
-    <br>
-    
-    <label for="mobile"><b>Enter mobile</b></label>
-    <input type="text" placeholder="Enter moible number" name="mobile" id="mobile" required>
-    <br>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <label for="email"><b>Enter Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="email" required>
-    <br>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-    <br>
-
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-    <hr>
-    <br>
-    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-    <button type="submit" class="registerbtn">Register</button>
-  </div>
-  <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
-  </div>
-
-   <h1> Thankyou, Happy Learning </h1>
-
-  
-</form>
+    <link rel="stylesheet" href="./lib/montserrat/webfonts/Montserrat.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Paradox Gym</title>
+</head>
+<body>
+    <div class="page-container">
+        <div class="page">
+            <div class="main-content">
+                <header>
+                    <img src="images/logo.svg" class="logo" alt="Logo of Paradox Gym">
+                </header>
+                <main class="main-offer">
+                    <h1 class="main-heading">
+                        Sign up <strong>today</strong><br>
+                        and claim your<br>
+                        <strong>lifetime membership</strong><br>
+                        for only<br>
+                        <strong class="main-offer-price">$499</strong>
+                    </h1>
+                    <a href="#" class="join-today">Join today</a>
+                </main>
+            </div>
+            <section class="countdown">
+                <h2 class="countdown-heading">Deal ends in:</h2>
+                <p class="countdown-paragraph"><strong>2</strong> days</p>
+            </section>
+        </div>
+        <footer>
+            <p class="footer-paragraph">A cool example project</p>
+        </footer>
+    </div>
+</body>
+</html>
