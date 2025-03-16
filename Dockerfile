@@ -1,11 +1,11 @@
 #build
-FROM maven AS builder
+FROM maven:3.8.6-openjdk-11 AS builder
 
 WORKDIR /app
 
 COPY . .
 
-CMD [ "mvn clean package", "run" ]
+RUN mvn clean package
 
 #depolyment to tomcat
 FROM tomcat

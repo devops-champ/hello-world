@@ -33,7 +33,7 @@
             </section>
         </div>
         <footer>
-            <p class="footer-paragraph">paradox@2025</p>
+            <p class="footer-paragraph">paradox@2023</p>
         </footer>
     </div>
 </body>
